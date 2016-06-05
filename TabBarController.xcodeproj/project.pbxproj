@@ -12,6 +12,12 @@
 		882EA8A01D03AFE600568081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882EA89E1D03AFE600568081 /* Main.storyboard */; };
 		882EA8A21D03AFE600568081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8A11D03AFE600568081 /* Assets.xcassets */; };
 		882EA8A51D03AFE600568081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8A31D03AFE600568081 /* LaunchScreen.storyboard */; };
+		882EA8B31D03B1EB00568081 /* day@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8AD1D03B1EB00568081 /* day@2x.png */; };
+		882EA8B41D03B1EB00568081 /* evening320.png in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8AE1D03B1EB00568081 /* evening320.png */; };
+		882EA8B51D03B1EB00568081 /* evening@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8AF1D03B1EB00568081 /* evening@2x.png */; };
+		882EA8B61D03B1EB00568081 /* morning320.png in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8B01D03B1EB00568081 /* morning320.png */; };
+		882EA8B71D03B1EB00568081 /* night320.png in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8B11D03B1EB00568081 /* night320.png */; };
+		882EA8B81D03B1EB00568081 /* night@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 882EA8B21D03B1EB00568081 /* night@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		882EA8A11D03AFE600568081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		882EA8A41D03AFE600568081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		882EA8A61D03AFE600568081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882EA8AD1D03B1EB00568081 /* day@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day@2x.png"; sourceTree = "<group>"; };
+		882EA8AE1D03B1EB00568081 /* evening320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evening320.png; sourceTree = "<group>"; };
+		882EA8AF1D03B1EB00568081 /* evening@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "evening@2x.png"; sourceTree = "<group>"; };
+		882EA8B01D03B1EB00568081 /* morning320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morning320.png; sourceTree = "<group>"; };
+		882EA8B11D03B1EB00568081 /* night320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = night320.png; sourceTree = "<group>"; };
+		882EA8B21D03B1EB00568081 /* night@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +69,25 @@
 				882EA89A1D03AFE600568081 /* AppDelegate.swift */,
 				882EA89C1D03AFE600568081 /* ViewController.swift */,
 				882EA89E1D03AFE600568081 /* Main.storyboard */,
+				882EA8AC1D03B1EB00568081 /* image */,
 				882EA8A11D03AFE600568081 /* Assets.xcassets */,
 				882EA8A31D03AFE600568081 /* LaunchScreen.storyboard */,
 				882EA8A61D03AFE600568081 /* Info.plist */,
 			);
 			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		882EA8AC1D03B1EB00568081 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				882EA8AD1D03B1EB00568081 /* day@2x.png */,
+				882EA8AE1D03B1EB00568081 /* evening320.png */,
+				882EA8AF1D03B1EB00568081 /* evening@2x.png */,
+				882EA8B01D03B1EB00568081 /* morning320.png */,
+				882EA8B11D03B1EB00568081 /* night320.png */,
+				882EA8B21D03B1EB00568081 /* night@2x.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +148,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882EA8B61D03B1EB00568081 /* morning320.png in Resources */,
 				882EA8A51D03AFE600568081 /* LaunchScreen.storyboard in Resources */,
+				882EA8B41D03B1EB00568081 /* evening320.png in Resources */,
+				882EA8B31D03B1EB00568081 /* day@2x.png in Resources */,
 				882EA8A21D03AFE600568081 /* Assets.xcassets in Resources */,
+				882EA8B81D03B1EB00568081 /* night@2x.png in Resources */,
 				882EA8A01D03AFE600568081 /* Main.storyboard in Resources */,
+				882EA8B71D03B1EB00568081 /* night320.png in Resources */,
+				882EA8B51D03B1EB00568081 /* evening@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
